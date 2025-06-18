@@ -1,0 +1,36 @@
+.menu {
+    
+    background-color: rgb(90, 90, 90);
+    border-radius: 10px ;
+    text-align:justify;
+    font-size:35px;
+    font-family: "GNF", "Arial", sans-serif;
+}
+
+
+.header{
+   color: white;
+   text-shadow:  1px 1px black;
+   width: 90px;
+   display:inline-table;
+   height: 25px;
+   border-radius: 10px;
+   padding: 5px;
+   opacity: 0.5;
+}
+
+.header:hover{
+    color:rgb(255, 255, 255);
+    font-size: 45px;
+    opacity:1;
+}
+
+@font-face {
+    font-family: "GNF";
+    src: url("font/GNF.ttf");
+}
+
+body {
+    background-color: rgb(41, 41, 41);
+}
+
