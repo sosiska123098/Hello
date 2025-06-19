@@ -1,57 +1,71 @@
 .menu{
     background-color: rgb(49, 49, 49);
-    border-radius: 10px;
     margin-bottom: 15px;
-    text-align: center;
+    text-align:left;
+    box-shadow: -5px 5px rgb(0, 0, 0);
 }
 
 .header{
    color: white;
    font-size: 35px;
    text-shadow: -5px 5px black;
-   margin-left: 15px;
+   margin-left: 25px;
+   margin-bottom: 5px;
    width: 90px;
    display:inline-table;
    height: 25px;
-   border-radius: 5px;
-   padding: 5px;
+   border-radius: 0px;
+   padding: 25px;
    opacity: 0.5;
-   border-bottom:5px solid ;
-   transition: font-size 0.4s linear;
+   border-top :none;
+   transition: font-size 0.3s ease-out;
    
 }
 
 .header:hover{
     color:rgb(255, 255, 255);
-    font-size: 55px;
+    font-size: 45px;
     opacity:1;
-    border-bottom:none;
+    border-top: 5px solid ;
+    background-color: rgb(73, 72, 72);
 }
 
 .dropbox{
-    position:absolute;  
+    width: 600px;
+    margin-top: 25px;
+    position:absolute;
+    background-color: rgb(49, 49, 49);
+    box-shadow: -5px 5px rgb(0, 0, 0);
+
+
+}
+
+.dropdown-content {
+    display: none;
+}
+
+.header:hover .dropdown-content {
     display: grid;
-    border-bottom: 5px solid;
-    border-radius: 5px;
-}
-
-.dropdown-content {  
-    display: none;  
-    position:absolute;  
-    background-color: rgb(90,90,90);  
-    min-width: 160px;
-}
-
-.header:hover .dropdown-content {  
-    display:contents;
+    border: 2px solid black;
 
 }
+
+a {
+    text-decoration: none; /* Убираем подчёркивание */
+}
+
+.logo{
+    position: relative; 
+    top: 10px; 
+    left: 15px; 
+}
+
 @font-face {
     font-family: "GNF";
     src: url("font/GNF.ttf");
 }
 
 body {
-    background-color: rgb(41, 41, 41);
+    background-color: rgb(77, 77, 77);
     font-family: "GNF", "Arial", sans-serif;
 }
