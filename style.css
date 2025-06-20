@@ -5,6 +5,7 @@
     box-shadow: -5px 5px rgb(0, 0, 0);
     justify-content: left;
     left: 0px;
+    border-radius: 12px;
 }
 
 .header{
@@ -40,7 +41,6 @@
     position:absolute;
     background-color: rgb(49, 49, 49);
     box-shadow: -5px 5px rgb(0, 0, 0);
-
 }
 
 .dropdown-content {
@@ -50,7 +50,6 @@
 .header:hover .dropdown-content {
     display: grid;
     border: 2px solid black;
-
 }
 
 a {
