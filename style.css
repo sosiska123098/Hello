@@ -1,15 +1,18 @@
 .menu{
+    position: relative;
     background-color: rgb(49, 49, 49);
-    margin-bottom: 15px;
     text-align:left;
     box-shadow: -5px 5px rgb(0, 0, 0);
+    justify-content: left;
+    left: 0px;
 }
 
 .header{
+   position: relative;
    color: white;
    font-size: 35px;
    text-shadow: -5px 5px black;
-   margin-left: 25px;
+   margin-left: 15px;
    margin-bottom: 5px;
    width: 90px;
    display:inline-table;
@@ -19,6 +22,7 @@
    opacity: 0.5;
    border-top :none;
    transition: font-size 0.3s ease-out;
+   left: 65px;
    
 }
 
@@ -31,12 +35,11 @@
 }
 
 .dropbox{
-    width: 600px;
+    width: 450px;
     margin-top: 25px;
     position:absolute;
     background-color: rgb(49, 49, 49);
     box-shadow: -5px 5px rgb(0, 0, 0);
-
 
 }
 
@@ -54,10 +57,11 @@ a {
     text-decoration: none; /* Убираем подчёркивание */
 }
 
+
 .logo{
-    position: relative; 
-    top: 10px; 
-    left: 15px; 
+    position: fixed; 
+    top: 28px; 
+    left: 22px; 
 }
 
 @font-face {
